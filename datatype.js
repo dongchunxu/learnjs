@@ -134,7 +134,7 @@ console.info(0 in data);
 
 
 
-console.info("------------遍历数组----------");
+console.info("------------  遍历数组    ----------");
 var arr4Foreach = ["hello", 213, function () {
     return "this is a func";
 }]
@@ -143,7 +143,15 @@ arr4Foreach.forEach(function (x) {
    console.info(x);
 });
 
-console.info(Array.isArray(arr4Foreach))
+console.info(Array.isArray(arr4Foreach));
+
+
+
+
+
+
+
+
 
 
 
